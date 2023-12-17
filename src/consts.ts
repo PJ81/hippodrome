@@ -1,9 +1,9 @@
 export const
-  KING = "♔",
-  QUEEN = "♕",
-  ROOK = "♖",
-  BISHOP = "♗",
-  KNIGHT = "♘",
+  KING = "♚",//"&#x265A;",
+  QUEEN = "♛", //"&#x265B;",
+  ROOK = "♜", //"&#x265C;",
+  BISHOP = "♝", //"&#x265D;",
+  KNIGHT = "♞", //"&#x265E;",
   NOTHING = "",
   MARK = "&#x25a3;";
 

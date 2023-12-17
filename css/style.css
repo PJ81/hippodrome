@@ -49,9 +49,12 @@ body {
   justify-items: center;
   border: 1px solid black;
   text-align: center;
-  font-size: 110px;
+  font-size: 130px;
+  line-height: 170px;
   cursor: pointer;
   user-select: none;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
 
 #board .tileB {
@@ -69,5 +72,6 @@ body {
 }
 
 .selected {
-  border: 6px solid darkred !important;
+  border: 4px solid red !important;
+  line-height: 163px !important;
 }

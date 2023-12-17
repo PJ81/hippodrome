@@ -144,7 +144,7 @@ class Hippodrome {
   tileClick(tile: HTMLDivElement): void {
     if (this.gameOver) return;
 
-    switch (tile.innerText) {
+    switch (tile.innerHTML) {
       case KING:
       case QUEEN:
       case ROOK:
@@ -155,7 +155,7 @@ class Hippodrome {
         }
 
         this.selectedTile = tile;
-        this.showMove(tile.innerText, tile);
+        this.showMove(tile.innerHTML, tile);
 
       } break;
       default:
